@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+    },
+    "outDir": "dist",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "resolveJsonModule": true
+  },
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "include": ["index.ts", "src/**/*"],
+  "exclude": ["node_modules"]
+}
